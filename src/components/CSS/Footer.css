@@ -1,0 +1,39 @@
+.footer {
+  background: #F8F9FA;
+  color: black;
+  padding: 22px 20px 16px 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 7px 7px 0 0;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 14px;
+  font-size: 1.6rem;
+  transition: color 0.19s;
+}
+
+.social-icons a:hover {
+  color: black;
+}
+
+.footer-address {
+  font-size: 1.03rem;
+  margin-top: 6px;
+}
+
+.footer-address address {
+  font-style: normal;
+}
+
+.footer-hours {
+  display: block;
+  font-size: 0.97rem;
+  color: black;
+  margin-top: 6px;
+}

@@ -1,0 +1,74 @@
+.home {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ---------- Banner Section ---------- */
+.home-banner {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+/* ---------- Responsive Split Layout ---------- */
+.home-slider-content {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Left side: Image */
+.slider-image-container {
+  flex: 1 1 300px;
+  max-width: 460px;
+  text-align: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Right side: Text */
+.home-intro {
+  flex: 1 1 300px;
+}
+
+.home-intro ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.home-intro li {
+  margin-bottom: 12px;
+  font-size: 1.07rem;
+}
+
+/* ---------- Responsive (Mobile First) ---------- */
+@media screen and (max-width: 768px) {
+  .home-slider-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slider-image-container,
+  .home-intro {
+    max-width: 100%;
+  }
+
+  .home-intro ul {
+    padding: 0 10px;
+    text-align: left;
+  }
+}
